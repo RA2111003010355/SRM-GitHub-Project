@@ -2,7 +2,7 @@
 int main()
 {
   int amount_given, bill_amount
-  scanf("%d\n %d" , amount_given, bill_amount);
+  scanf("%d\n %d" , &amount_given, &bill_amount);
   printf("%d\n %d\n", amount_given/bill_amount, amount_given%bill_amount);
   return 0;
   }
